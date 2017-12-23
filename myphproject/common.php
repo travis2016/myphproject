@@ -6,7 +6,7 @@
     private $names; //名字a
 
     public function __get($pro_names){
-    	
+    	echo '1';
     }
 
 
