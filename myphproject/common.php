@@ -14,9 +14,23 @@
 	}
     }
 
-   
+   public function __set($pro_names,$value){
+      $this->$pro_names = $value;
+   }  
+  
+    public function setNames($value){
+        if(trim($value)){
+           $this->names = $value;
+        }  
+    }
 
-
+    public function getNames(){
+     return $this->names;
+    }
   }
+
+  $p = new Persons();
+  $p->setNames("sdd");
+  echo $p->getNames()."<br>";
 
 ?>
