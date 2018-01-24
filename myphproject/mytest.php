@@ -10,7 +10,7 @@
       $b = new Md5Util('张三');
       echo $b ->name."<br>";
   }
-  $p = new Persons();
+  $p = new Common();
   $p->setNames("tesfff");
   echo  $p->getNames()."<br>";
 

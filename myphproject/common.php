@@ -1,7 +1,7 @@
 <?php
   header("Content-Type: text/html;charset=UTF-8");
 
-  class Persons{
+  class Common{
     private $names; //名字a
 
     //get方法获取值
